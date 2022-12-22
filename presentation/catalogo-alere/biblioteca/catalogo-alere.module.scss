@@ -2,8 +2,26 @@
   background-color: #ffffff;
 }
 
-.listOrange li {
+.listOrange{
   color: rgb(255, 161, 20);
-  font-size: large;
-  max-width: 50%;
+  font-size: medium;
+  max-width: 150%;
+}
+
+.listBlack{
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  max-width: 150%;
+}
+
+.listOrange2{
+  color: rgb(255, 161, 20);
+  font-size: small;
+  max-width: 150%;
+}
+
+.listBlack2{
+  color: rgb(0, 0, 0);
+  font-size: small;
+  max-width: 150%;
 }
