@@ -1,44 +1,25 @@
-import React, { useState } from 'react';
-import style from './catalogo-alere.module.scss'
-import { Image, Row, Col, Card} from 'antd';
+import React, { useEffect, useState } from 'react'
+import { Col, Pagination } from 'antd'
+import LD3A from './biblioteca/Livro Digital EI 3 ANOS'
+import LD4A from './biblioteca/Livro Digital EI 4 ANOS'
+import LD5A from './biblioteca/Livro Digital EI 5 ANOS'
+import LD1AL from './biblioteca/Livro Digital EF 1º Ano Linguagem'
+import LD1AM from './biblioteca/Livro Digital EF 1º Ano Matemática'
 
 const CatalogoAlere: React.FC = () => {
-  const [visible, setVisible] = useState(false);
+  const [idx, setIdx] = useState(0)
+
+  const lista = [<LD3A/>,<LD4A/>,<LD5A/>,<LD1AL/>,<LD1AM/>]
+
+  useEffect(() => { }, [idx])
+
   return (
-    <>
-    <Card className={style.orangeBack}>
-    <Row justify='center' align='middle' gutter={[16, 20]}>
-      <Image
-        preview={{ visible: false }}
-        width={1200}
-        src='/assets/catalogoalere/Topo.png'
-        onClick={() => setVisible(true)}
-      />
-    </Row>
-      <div style={{ display: 'none' }}>
-        <Image.PreviewGroup preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}>
-        return(<Row justify='center' align='middle' gutter={[16, 20]}>
-          <Image src='/assets/catalogoalere/Catálogo Livros Digitais Alere-01.png'preview={true} />
-          <h1>A coleção Revisão dos Saberes tem como objetivo</h1>
-        </Row>
-        )
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-02.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-03.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-04.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-05.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-06.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-07.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-08.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-09.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-10.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-11.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-12.png'/>
-        <Image width={500} src='/assets/catalogoalere/Catálogo Livros Digitais Alere-13.png'/>     
-        </Image.PreviewGroup>
-      </div>
-    </Card>
-    </>
-  );
-};
+    <Col xl={24} md={24} sm={24}>
+      <Pagination simple total={16} pageSize={1} onChange={(pagina) => setIdx(pagina - 1)}></Pagination>
+
+      {lista[idx]}
+    </Col>
+  )
+}
 
 export default CatalogoAlere

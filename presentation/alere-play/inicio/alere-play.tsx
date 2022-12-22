@@ -16,63 +16,63 @@ const Alereplay: React.FC = () => (
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_01.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_1.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_02.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_2.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_03.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_3.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_04.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_4.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_05.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_5.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_06.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_6.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_07.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_7.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_08.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_8.png' preview={false} />
       </Row>
     </Col>
     </div>
     <div>
     <Col xl={24} md={24} sm={24} className={style.yellowBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
-        <Image width={1000} src='/assets/alereplay/ALEREPLAY_09.png' preview={false} />
+        <Image width={1000} src='/assets/alereplay/ALEREPLAY_9.png' preview={false} />
       </Row>
     </Col>
     </div>

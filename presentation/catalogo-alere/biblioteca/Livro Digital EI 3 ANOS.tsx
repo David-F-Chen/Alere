@@ -56,11 +56,9 @@ const LD3A: React.FC = () => {
         <Row justify='space-between' align='middle' className={style.listBlack}>38 - Nomes próprios - quantidades  </Row>
         <Row justify='space-between' align='middle' className={style.listOrange}>39 - Brinquedos e brincadeiras 1  </Row>
         <Row justify='space-between' align='middle' className={style.listBlack}>40 - Mina dos números   </Row>
-
         <p></p>
-         </ul>
-        
-      </Row>
+        </ul>
+        </Row>
       <Row justify='center' align='middle' gutter={[16, 20]}>
       <Image src='/assets/catalogoalere/LDA1_game.png' preview={false} />
       </Row>
