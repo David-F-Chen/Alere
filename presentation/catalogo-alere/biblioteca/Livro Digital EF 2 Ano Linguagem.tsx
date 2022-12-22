@@ -3,7 +3,7 @@ import style from './catalogo-alere.module.scss'
 import { Image, Row, Col } from 'antd'
 
 
-const LD1AL: React.FC = () => {
+const LD2AL: React.FC = () => {
   return (
     <Col xl={24} md={24} sm={24} className={style.whiteBack}>
       <Row justify='center' align='middle' gutter={[16, 20]}>
@@ -65,4 +65,4 @@ const LD1AL: React.FC = () => {
   )
 }
 
-export default LD1AL;
+export default LD2AL;
